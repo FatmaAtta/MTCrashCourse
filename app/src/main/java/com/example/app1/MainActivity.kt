@@ -1,5 +1,7 @@
 package com.example.app1
 
+import com.example.app1.databinding.LinearLayoutBinding
+
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -15,8 +17,10 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.app1.ui.theme.App1Theme
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var binding: LinearLayoutBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.linear_layout)
+        binding = LinearLayoutBinding.inflate(layoutInflater)
+        setContentView(binding.root)
     }
 }

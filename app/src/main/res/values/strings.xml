@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">My App</string>
+    <string name="username">Enter Your Username</string>
+    <string name="Password">Enter Your Password</string>
+    <string name="confirm">Confirm Your Password</string>
+    <string name="signup">Sign Up</string>
+    <string name="signin">Sign In</string>
+    <string name="donthaveacc">Don\'t have an account? Sign up for free now</string>
+    <string name="alreadyhavacc"></string>
+
 </resources>

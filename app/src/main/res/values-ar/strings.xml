@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="username">أدخل اسمك</string>
+<string name="Password">أدخل كلمة السر</string>
+<string name="confirm">أدخل كلمة السر مرة أخرى</string>
+<string name="signup">Sign Up</string>
+<string name="signin">Sign In</string>
+<string name="donthaveacc">Don\'t have an account? Sign up for free now</string>
+<string name="alreadyhavacc"></string>
+
+</resources>
